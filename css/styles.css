@@ -913,9 +913,13 @@ textarea:focus {
         width: calc((100% - 24px) / 2);
     }
 
+    .managers{
+        flex-direction: row;
+        gap: 64px 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-
-    .first-conteiner {
-}
+    
 
 }
