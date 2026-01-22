@@ -127,8 +127,8 @@ header {
 
 .title-conteiner {
     text-align: center;
-    width: 169px;
-    margin: 72px auto;
+    display: block;
+    align-items: center;
 }
 
 .title {
@@ -138,8 +138,8 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0 0 72px 0;    
-    max-width: 320px;
+    margin: 0 0 72px 0;
+    padding: 0 52px;
 }
 
 .order-service-button {
@@ -816,9 +816,6 @@ textarea:focus {
         padding: 0 16px;
     }
 
-    .header-conteiner {
-        padding: 0 16px;
-    }
 
     .logo-header {
         margin-right: 120px;
@@ -891,10 +888,19 @@ textarea:focus {
         color: #404bbf;
     }
 
+    .title-conteiner {
+    }
+
     .background-title {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/Hero-tablet.png);
+    }
+
+    .title{
+    font-size: 56px;
+    line-height: 107%;
+    margin: 0 0 36px 0;
     }
 
     .section-fitst-ul {
@@ -906,5 +912,10 @@ textarea:focus {
     .section-fitst-ul>li {
         width: calc((100% - 24px) / 2);
     }
+
+
+
+    .first-conteiner {
+}
 
 }
