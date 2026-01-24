@@ -325,7 +325,6 @@ header {
 
 .footer-text {
     color: #f4f4fd;
-    max-width: 264px;
     text-align: left;
     margin-bottom: 72px;
 }
@@ -335,6 +334,15 @@ header {
 }
 
 .social-media-text-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.input-media-text-footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -933,6 +941,66 @@ textarea:focus {
 
     .conteiner-portfolio{
         margin: 96px auto;
+    }
+
+    .portfolio-image{
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .footer-con-first{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 264px;
+    }
+
+    .footer-con-second{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .input-subscribe{
+        align-items: flex-start;
+    }
+
+    .footer-conteiner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin: 0 108px;
+    }
+
+    .footer-conteiner:last-child:not(:last-child)>div{
+        width: calc((100% - 24px) / 2);
+    }
+
+    .footer-text{
+        margin: 0;
+    }
+    
+    .social-media-text-footer{
+        padding-top: 96px;
+    }
+
+    .input-media-text-footer{
+        text-align: start;
+    }
+
+    .input-div {
+        width: 100%;
+    }
+
+    .input-button-subscrible{
+        align-content: space-between;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .input-footer{
+        max-width: 264px;
     }
 
 }
