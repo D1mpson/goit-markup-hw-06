@@ -295,6 +295,7 @@ header {
 
 .portfolio-overlay:hover .portfolio-overlay-p {
     transform: translateY(0);
+    display: none;
 }
 
 .portfolio-image {
@@ -511,7 +512,7 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-con {
@@ -523,7 +524,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 8px;
+    margin: 8px 0 4px 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
@@ -589,11 +590,12 @@ textarea:focus {
 .checkbox-label {
     display: flex;
     flex-direction: row;
-    margin-bottom: 24px;
+    margin: 16px 0 24px 0;
     cursor: pointer;
     user-select: none;
     align-items: flex-start;
     gap: 8px;
+    align-items: center;
 }
 
 .checkbox-input {
@@ -792,7 +794,11 @@ textarea:focus {
 
 .mobile-address-phone {
     color: #4d5ae5;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
 }
 
 .mobile-social-list {
@@ -941,6 +947,12 @@ textarea:focus {
         justify-content: center;
     }
 
+    .portfolio-li {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+    }
+    
+
     .portfolio-ul>li{
         width: calc((100% - 24px) / 2);
     }
@@ -1001,6 +1013,19 @@ textarea:focus {
 
     .input-footer{
         max-width: 264px;
+    }
+
+    .modal-label{
+        margin: 8px 0 4px 0;
+
+    }
+
+    .modal-title{
+        margin-bottom: 8px;
+    }
+
+    .checkbox-label{
+        margin: 16px 0 24px 0;
     }
 
 }
@@ -1343,6 +1368,7 @@ textarea:focus {
 
     .portfolio-overlay:hover .portfolio-overlay-p {
         transform: translateY(0);
+        display: block;
     }
 
     .icon {
@@ -1514,6 +1540,7 @@ textarea:focus {
     .text-area {
         height: 120px;
         overflow-y: auto;
+        margin: 0;
     }
 
     .modal-con {
@@ -1586,14 +1613,14 @@ textarea:focus {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
     }
 
 
     .checkbox-label {
         display: flex;
         flex-direction: row;
-        margin-bottom: 24px;
+        margin: 16px 0 24px 0;
         cursor: pointer;
         user-select: none;
         align-items: center;
