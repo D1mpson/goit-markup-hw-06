@@ -113,6 +113,10 @@ header {
     height: 32px;
 }
 
+.menu-hide svg {
+    fill: #2F2F37;
+}
+
 .background-title {
     background-color: #2e2f42;
     margin: 0 auto;
